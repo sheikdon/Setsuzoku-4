@@ -34,5 +34,6 @@ As a user, I want the ability to...
   - able to get a win, lose or draw message after a set combination made.
 
 
-![connect 4](../../../Downloads/IMG_5982.png)
-![amongus](../../../Downloads/idea1.png)
+![wireframe of my connect 4 game](./connect-4-main.png)
+
+
