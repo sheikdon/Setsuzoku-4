@@ -33,5 +33,6 @@ As a user, I want the ability to...
   - able to take turns
   - able to get a win, lose or draw message after a set combination made.
 
-![amongus](./idea1.png)
-![connect4](./IMG_5982.png)
+
+![](../../../Downloads/IMG_5982.png)
+![](../../../Downloads/idea1.png)
