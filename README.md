@@ -35,5 +35,6 @@ As a user, I want the ability to...
 
 
 ![wireframe of my connect 4 game](./connect-4-main.png)
+![second wireframe](./connect-4-wireframe.png)
 
 
