@@ -7,8 +7,8 @@ or
 for the other game i will be doing a connect 4 style game . you will have to play against another person which means its a 2 player game. you will have to connect 4 to win the game before the other opponnet.
 
 
-I plan on using my week on certain parts of the code. I know that i will spend most of my time with html and javascript so i will dedicate most of the week on them.
+I plan on using my week on certain parts of the code. I know that i will spend most of my time with html and javascript so i will dedicate most of the week on them.g
 
 
-![amongus](idea1.png)
-![connect4](IMG_5982.png)
+![amongus](idea1.jpg)
+![connect4](IMG_5982.jpg)
