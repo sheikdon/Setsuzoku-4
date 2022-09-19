@@ -7,6 +7,17 @@ or
 for the other game i will be doing a connect 4 style game . you will have to play against another person which means its a 2 player game. you will have to connect 4 to win the game before the other opponnet.
 
 
+technology used:
+-HTML -CSS -JavaScript
+
+monday: get approved and get the framework complete and start making the pusedo codes.
+tuesday:hardcode the html and complete half of the javascript
+wednesday:finish the second half of the javascript
+thursday: test the game and used the day to fix or add more codes if needed.
+friday: complete css
+the weekend: use this time to added more improvement and make sure the code is running clean.
+
+
 I plan on using my week on certain parts of the code. I know that i will spend most of my time with html and javascript so i will dedicate most of the week on them.g
 
 
