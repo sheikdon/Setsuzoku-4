@@ -5,3 +5,6 @@ for my game i will be doing an among us style game but turn it into a hard game 
 or
 
 for the other game i will be doing a connect 4 style game . you will have to play against another person which means its a 2 player game. you will have to connect 4 to win the game before the other opponnet.
+
+![amongus](idea1.png)
+![connect4](IMG_5982.png)
