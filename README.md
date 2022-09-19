@@ -26,5 +26,5 @@ the weekend: use this time to added more improvement and make sure the code is r
 I plan on using my week on certain parts of the code. I know that i will spend most of my time with html and javascript so i will dedicate most of the week on them.
 
 
-![amongus](idea1.jpg)
-![connect4](IMG_5982.jpg)
+![amongus](downloads/idea1.png)
+![connect4](downloads/IMG_5982.png)
