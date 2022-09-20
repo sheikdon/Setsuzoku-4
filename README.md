@@ -1,25 +1,22 @@
 # project_1
-Connect four is a two-player connection game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. Connect Four is a solved game. The first player can always win by playing the right moves.
-
-or
-
-For my back up game I will be doing an among us style game but turn it into a hard game style. The objective is as the last remaining crewmate is to move throw space away from the dead crewmate and trash and reach the the end and hit the emergency button. The objects will come flying horizontally so you have to move pass them or you die. There will be levels included in the game.
+Setsuzoku 4 is a two-player connection game in which the players first choose a color and then take turns dropping colored blocks from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own blocks. Setsuzoku 4 is a game for the smartest. The smartest player can always win by playing the right moves.
 
 
-technology used:
+
+Technology used:
 -HTML -CSS -JavaScript
 
-monday: get approved and get the framework complete and start making the pusedo codes.
+Monday: get approved and get the framework complete and start making the pusedo codes.
 
-tuesday:hardcode the html and complete half of the javascript.
+Tuesday:hardcode the html and complete half of the javascript.
 
-wednesday:finish the second half of the javascript.
+Wednesday:finish the second half of the javascript.
 
-thursday: test the game and used the day to fix or add more codes if needed.
+Thursday: test the game and used the day to fix or add more codes if needed.
 
-friday: complete css
+Friday: complete css.
 
-the weekend: use this time to added more improvement and make sure the code is running clean.
+Saturday and Sunday: use this time to added more improvement and make sure the code is running clean.
 
 
 I plan on using my week on certain parts of the code. I know that i will spend most of my time with html and javascript so i will dedicate most of the week on them.
