@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 /* text font */
+
 body {
     font-family: 'Crimson Text', serif;
     background-image: url(https://wallpaperaccess.com/full/336765.jpg);
@@ -51,13 +52,17 @@ body {
     border-radius: 10%;
     /* outline: solid darkgreen; */
     justify-content: center;
-
 }
-
+.circle:hover {
+    background-color: gray;
+    transform: scale(1.5);
+}
 
 /* button adjustment */
 button {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    color: black;
+    background-color: darkgreen;
 }
