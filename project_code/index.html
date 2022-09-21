@@ -24,11 +24,11 @@
         horizontal, vertical, or diagonal line of four of one's own blocks. Setsuzoku 4 is a game for the smartest. 
         The smartest player can always win by playing the right moves.</p>
     <!-- button and status -->
-    <button>Start Game</button>
-    <span class="status"></span>
+    <button id="start">Start Game</button>
+    <button id="play-again">Play Again</button>
+    <!-- <span class="status"></span> -->
     
 <div id="board"></div>
-<h2 id="winner"></h2>
  <!-- spots for the circle pieces -->
  <div class="pieces">
     <div class="circle"></div>
@@ -78,6 +78,10 @@
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
+    <div id="game-over-area" class="hidden">
+      <h2 id="game-over-text">has won!</h2>
+      
+    </div>
 
     
 </div>
