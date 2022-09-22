@@ -46,23 +46,40 @@ body {
 }
 
 /* adding pieces to board */
-.circle {
+.square {
     border: 10px solid black;
-    background-color: gray;
+    background-color: white;
     border-radius: 10%;
     /* outline: solid darkgreen; */
     justify-content: center;
 }
-.circle:hover {
-    background-color: gray;
+.square:hover {
+    background-color: white;
     transform: scale(1.5);
 }
 
 /* button adjustment */
-button {
-    margin: 10px;
+#reset {
+    margin: auto;
     padding: 10px;
     text-align: center;
     color: black;
     background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    
 }
+
+#message {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    border: solid darkgreen;
+    width: 150px;
+    height: 40px;
+    
+  }
+  #h2 {
+    margin: auto;
+  }
