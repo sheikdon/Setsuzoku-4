@@ -29,10 +29,18 @@
 // let currentColumns = [];
 
 //vr2
+//color pieces
 const colors = {
     '0': "black",
     '1': "white",
     '2': "grey"
 };
+//board win conditions
 let board;
+let turn;
+let winner;
+let draw;
+
+//
+
 
