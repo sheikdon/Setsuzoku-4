@@ -10,16 +10,20 @@
 // circles.forEach((circle) => circle.addEventListener("click", gridClick));
 //VR1
 // labeling pieces: use const variable since let messes it up document grabbers.
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
 const square = document.querySelector(".square")
-const board = document.querySelector(".board")
+const boards = document.querySelector(".board")
 const turnMsg = document.querySelector('h2');
 const message = document.getElementById('message');
 const resetBtn = document.getElementById('reset');
+// })
 // console.log()})
 //it initializes the website layout after DOM loads
-//https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript
-document.getElementById('reset').addEventListener('click', init);
+const reset = (parameter) => {
+console.log("Inside our reset callback function, the parameter passed to function",parameter)
+
+}
+resetBtn.addEventListener('click', reset);
 
 const playerOne = "black";
 const playerTwo = "white";
@@ -30,20 +34,21 @@ let startPlayer = "playerOne";
 //labeling board commands
 let gameOver = false;
 let board;
-let winner;
-let tie;
-// let rows = 6;
-// let columns = 7;
+// let winner;
+// let tie;
+let rows = 6;
+let columns = 7;
 // let currentColumns = [];
 
 //loads game up with event listen
 //source: https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event
 // window.onload = function() {
-//     setGame();
-}
+//     setGame();}
+
  //setting up grid and board up
- init();
- function init() {
+ function setGame() {
+    //having the 0s makes the board empty i think
+    //to access a board index [x]"0-6"[y]"0-5"
     board = [
       [0, 0, 0, 0, 0, 0], 
       [0, 0, 0, 0, 0, 0],  
@@ -54,6 +59,20 @@ let tie;
       [0, 0, 0, 0, 0, 0],
     ];
 
+//we are going to add onclick event listeners to the appropiate to the right html elements and give them callback functions that let us play the game.
+//these callback functions will take in a parameter and use that parameter to implement our appropiate game logic. then it will trigger a change in thr html/css (the dom)
+//example: (event) => {
+// console.log(event.target.id) where am i
+// now that i know where i am, i need to do a thing. do ir to board
+// run game checks
+// change the dom so a user knows what happen and can play 
+// }
+
+
+//add winning condition
+//add lose condition
+//add tie condition
+//add the winning combination
   
 
 
@@ -120,11 +139,4 @@ let tie;
 
 
 //vr3
-
-// const circles = document.querySelector("#circle")
-// const board = document.querySelector("#board")
-// const pieces = document.querySelector('#pieces')
-// const turnMsg = document.querySelector('h2');
-// const message = document.getElementById('message')
-// const resetBtn = document.getElementById('reset')
-  }
+    }
