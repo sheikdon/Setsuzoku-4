@@ -8,16 +8,19 @@
 // const gameOverSound = new Audio("sounds/game_over.wav");
 // const clickSound = new Audio("sounds/click.wav");
 // circles.forEach((circle) => circle.addEventListener("click", gridClick));
-
+//VR1
 // labeling pieces: use const variable since let messes it up document grabbers.
-
 document.addEventListener('DOMContentLoaded', () => {
-const circles = document.querySelector(".circle")
+const square = document.querySelector(".square")
 const board = document.querySelector(".board")
 const turnMsg = document.querySelector('h2');
 const message = document.getElementById('message');
 const resetBtn = document.getElementById('reset');
-})
+// console.log()})
+//it initializes the website layout after DOM loads
+//https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript
+document.getElementById('reset').addEventListener('click', init);
+
 const playerOne = "black";
 const playerTwo = "white";
 let startPlayer = "playerOne";
@@ -27,18 +30,20 @@ let startPlayer = "playerOne";
 //labeling board commands
 let gameOver = false;
 let board;
-
-let rows = 6;
-let columns = 7;
-let currentColumns = [];
+let winner;
+let tie;
+// let rows = 6;
+// let columns = 7;
+// let currentColumns = [];
 
 //loads game up with event listen
 //source: https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event
-window.onload = function() {
-    setGame();
+// window.onload = function() {
+//     setGame();
 }
  //setting up grid and board up
- function setGame() {
+ init();
+ function init() {
     board = [
       [0, 0, 0, 0, 0, 0], 
       [0, 0, 0, 0, 0, 0],  
@@ -47,17 +52,34 @@ window.onload = function() {
       [0, 0, 0, 0, 0, 0], 
       [0, 0, 0, 0, 0, 0],
       [0, 0, 0, 0, 0, 0],
+    ];
 
-      ];
-
-    
-
+  
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+     
+     
+     
+     
+     
+
+
+
+      document.addEventListener('DOMContentLoaded', function(event) {
+        setGame()
+      })
 
 
 //vr2
