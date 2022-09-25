@@ -116,12 +116,12 @@
   }
 
 #solidBorder {
-  height: 150px;
+  height: 250px;
   width: 160px;
   position: fixed;
   border: 5px solid darkgreen;
   top: 25.5%;
-  right: 51vmin;
+  right: 25vmin;
   color: bold black;
 
 
@@ -134,8 +134,10 @@
   align-items: center;
   border: 5px solid darkgreen;
   width: 150px;
-  height: 40px;
-  position: fixed;
+  height: 150px;
+  position: initial;
+  margin: 0;
+  color: white;
 }
 
 #reset {
@@ -209,6 +211,13 @@ p {
   color: white;
 }
 
+h2 {
+    color: white;
+}
+
+title {
+    color: white;
+}
 
 
 

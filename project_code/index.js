@@ -68,7 +68,8 @@ let arr;
   
    //setting up grid and board up
   //  function setGame() {
-    init();
+    init(); // // initialisation stuff here
+            //  init will help in instantiating the object properties. basically init is like a constructor call on your class.
       //having the 0s makes the board empty i think
       //to access a board index [x]"0-6"[y]"0-5"
 function init() {
@@ -140,15 +141,15 @@ function init() {
           colArr.forEach(function(cellVal, rows) {
           console.log(columns);
           console.log(rows);
-        const cellEl = document.getElementById(`m${columns}k${rows}`);
-        cellEl.style.backgroundColor = COLORS[cellVal];
+        const squares = document.getElementById(`m${columns}k${rows}`);
+        squares.style.backgroundColor = COLORS[cellVal];
       });
     });
-    renderMarkers();
+    renderSquare();
   
     turnMsg.innerText = `${COLORS[turn]}`;
   }
-  function renderMarkers() {
+  function renderSquare() {
     square.forEach(function(square, columns) {
       square.style.visibility = board[columns].includes(0) ? 'visible' : 'hidden';
     });
