@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
-    <title>Setsuzoku 4</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setsuzoku 4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
 </head>
 <body>
-    <!-- Board Setup -->
-   <!-- start screen -->
-    <!-- <div id="start-screen" class="start" style="display:block;"> -->
-
-    <h1 id="title">Welcome</h1>
-    <h2 id="titlee">This is Setsuzoku 4!</h2>
-    <p id="intro">Setsuzoku 4 is a two-player connection game in which the players first choose a color 
+    <div class="words">
+    <title>Welcome</title>
+    <p>Setsuzoku 4 is a two-player connection game in which the players first choose a color 
         and then take turns dropping colored blocks from the top into a seven-column, six-row vertically suspended grid. 
         The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a 
         horizontal, vertical, or diagonal line of four of one's own blocks. Setsuzoku 4 is a game for the smartest. 
         The smartest player can always win by playing the right moves.</p>
-    
-    
-<div id="boards"></div>
- <!-- spots for the square pieces -->
- <div class="pieces">
-    <div id="c0 r0" class="square"></div>
-    <div id="c0 r1" class="square"></div>
-    <div id="c0 r2" class="square"></div>
-    <div id="c0 r3"class="square"></div>
-    <div id="c0 r4" class="square"></div>
-    <div id="c0 r5" class="square"></div>
-    <div id="c0 r6" class="square"></div>
+    </div>
+ <!-- Board Setup -->
+   <!-- start screen -->
+    <!-- <div id="start-screen" class="start" style="display:block;"> -->
+  <section id="square">
+    <div id="color1"></div>
+    <div></div>
+    <div id="color2"></div>
+    <div></div>
+    <div id="color3"></div>
+    <div></div>
+    <div id="color4"></div>
+  </section>
+  <main>
+  <section id="board">
+    <!-- spots for the square pieces -->
+    <div id="m0k5"></div>
+    <div id="m1k5"></div>
+    <div id="m2k5"></div>
+    <div id="m3k5"></div>
+    <div id="m4k5"></div>
+    <div id="m5k5"></div>
+    <div id="m6k5"></div>
 
-    <div id="c1 r0" class="square"></div>
-    <div id="c1 r1" class="square"></div>
-    <div id="c1 r2" class="square"></div>
-    <div id="c1 r3" class="square"></div>
-    <div id="c1 r4" class="square"></div>
-    <div id="c1 r5" class="square"></div>
-    <div id="c1 r6" class="square"></div>
-    
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
+    <div id="m0k4"></div>
+    <div id="m1k4"></div>
+    <div id="m2k4"></div>
+    <div id="m3k4"></div>
+    <div id="m4k4"></div>
+    <div id="m5k4"></div>
+    <div id="m6k4"></div>
 
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
+    <div id="m0k3"></div>
+    <div id="m1k3"></div>
+    <div id="m2k3"></div>
+    <div id="m3k3"></div>
+    <div id="m4k3"></div>
+    <div id="m5k3"></div>
+    <div id="m6k3"></div>
 
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
+    <div id="m0k2"></div>
+    <div id="m1k2"></div>
+    <div id="m2k2"></div>
+    <div id="m3k2"></div>
+    <div id="m4k2"></div>
+    <div id="m5k2"></div>
+    <div id="m6k2"></div>
+
+    <div id="m0k1"></div>
+    <div id="m1k1"></div>
+    <div id="m2k1"></div>
+    <div id="m3k1"></div>
+    <div id="m4k1"></div>
+    <div id="m5k1"></div>
+    <div id="m6k1"></div>
+
+    <div id="m0k0"></div>
+    <div id="m1k0"></div>
+    <div id="m2k0"></div>
+    <div id="m3k0"></div>
+    <div id="m4k0"></div>
+    <div id="m5k0"></div>
+    <div id="m6k0"></div>   
     <!-- button and status -->
     <!-- <button id="start">New Game</button> -->
-    <button id="reset">Reset</button>
+</section>
+    <aside id="solidBorder">
     <h2>Players Turn</h2>
+    <button id="playAgain">Play Again</button>
+    <button id="reset">Reset</button>
     <p id="message"></p>
-    
-    
-      
-    </div>
-
-    
-</div>
-    
-   
-
+    </aside>
+  <div class="bgImg"></div>
+</main>
 </body>
 </html>
