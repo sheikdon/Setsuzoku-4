@@ -159,10 +159,33 @@ function init() {
     resetBtn.style.visibility = 'visible';
     winner = true;
   }
-
-
-  //add lose condition
-  //add tie condition
   //add the winning combination
-    
+  function handleDrop(evt) {
+    if (winner) return;
+    const columns = square.indexOf(evt.target);
+    if (columns === -1) return;
+    const colArr = board[columns];
+    const rows = colArr.indexOf(0);
+    colArr[rows] = turn;
+    getWinner(columns, rows);
+    turn *= -1;
+    render();
+    getWinner(columns, rows)
+    arr.push(1)
+    tieCheck();
+  }
+  
+  function getWinner(columns, rows) {
+    return checkVertWin(columns, rows)
+      || checkHorzWin(columns, rows);
+  }
+  
+  function tieCheck() {
+  
+    if (arr.length === 42) {
+        reset.style.visibility = 'visible';
+        message.innerHTML = 'It is a Tie!'
+    };
+  }
+  
   
