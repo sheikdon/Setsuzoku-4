@@ -110,4 +110,105 @@
         
       }
     
+#board > div {
+    border-radius: 10%;
+    border: 5px solid black;
+  }
+
+#solidBorder {
+  height: 150px;
+  width: 160px;
+  position: fixed;
+  border: 5px solid darkgreen;
+  top: 25.5%;
+  right: 51vmin;
+  color: bold black;
+
+
+}
+
+#message {
+  display: flex;
+  justify-content: center;
+  background-color: 10px solid darkgreen;
+  align-items: center;
+  border: 5px solid darkgreen;
+  width: 150px;
+  height: 40px;
+  position: fixed;
+}
+
+#reset {
+  color: black;
+  background-color: darkgreen;
+  height: 20px;
+  width: 50px;
+}
+words {
+    text-align: center;
+
+}
+
+title {
+  height: 10%;
+  width: 44%;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  top: 0;
+  color: solid black;
+  left: 400px;
+  /* margin: 40px; */
+  font-size: 36px;
+  padding-top: 10px;
+  margin-top: 50px;
+   
+
+}
+p {
+  height: 10%;
+  width: 44%;
+  justify-content: center;
+  display: grid;
+  /* align-items: center; */
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  top: 0;
+  color: solid darkgreen;
+  left: 400px;
+  margin-top: 20px;
+  font-size: large;
+  padding-top: 20px;
+}
+
+#playAgain {
+  background-color: darkgreen;
+  color: black;
+
+
+}
+
+#color1 {
+  color: white;
+  
+}
+
+#color2 {
+  color: white;
+}
+
+#color3 {
+  color: white;
+}
+
+#color4 {
+  color: white;
+}
+
+
+
 
