@@ -47,11 +47,10 @@
         justify-content: center;
         align-items: center;
         background-color: darkgreen;
-        background-image: url('https://wallpaperaccess.com/full/336765.jpg');
+        background-image: url('https://c0.wallpaperflare.com/preview/615/358/327/zen-garden-botanic-garden-japanese.jpg');
         background-size: cover;
         background-position: center;
         position: relative;
-    
         }
     
     main {
@@ -138,6 +137,7 @@
   position: initial;
   margin: 0;
   color: white;
+  background-color: black;
 }
 
 #reset {
@@ -161,7 +161,7 @@ title {
   background-position: center;
   position: relative; 
   top: 0;
-  color: solid black;
+  color: solid white;
   left: 400px;
   /* margin: 40px; */
   font-size: 36px;
@@ -180,7 +180,7 @@ p {
   background-position: center;
   position: relative; 
   top: 0;
-  color: solid darkgreen;
+  color:white;
   left: 400px;
   margin-top: 20px;
   font-size: large;
@@ -213,11 +213,15 @@ p {
 
 h2 {
     color: white;
+    background-color: black;
 }
 
 title {
     color: white;
+    
 }
-
+/* p {
+  color: bold black;
+} */
 
 
