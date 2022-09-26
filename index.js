@@ -1,26 +1,3 @@
-// //welcome screen
-// window.onload = function() {
-// }
-// window.onresize = function() {
-//     gameLoop.onresize();
-// }
-// //sounds
-// const gameOverSound = new Audio("sounds/game_over.wav");
-// const clickSound = new Audio("sounds/click.wav");
-// circles.forEach((circle) => circle.addEventListener("click", gridClick));
-//VR1
-// labeling pieces: use const variable since let messes it up document grabbers.
-// document.addEventListener('DOMContentLoaded', () => {
-//Vr 1
-  // const square = document.querySelector(".square")
-  // const boards = document.querySelector(".board")
-  // const turnMsg = document.querySelector('h2');
-  // const message = document.getElementById('message');
-  // const resetBtn = document.getElementById('reset');
-  // })
-  // console.log()})
-  //VR 2
-  //pull from html
   const square = [...document.querySelectorAll('#square > div')];
   const turnMsg = document.querySelector('h2');
   const message = document.getElementById('message')
@@ -30,18 +7,6 @@
   document.getElementById('square').addEventListener('click', handleDrop);
   resetBtn.addEventListener('click', init);
   
-  //it initializes the website layout after DOM loads
-  // const reset = (parameter) => {
-  // console.log("Inside our reset callback function, the parameter passed to function",parameter)
-
-  // }
-  // resetBtn.addEventListener('click', reset);
-  //Labeling squares and player:
-  //vr1
-  // const playerOne = "black";
-  // const playerTwo = "white";
-  // let startPlayer = "playerOne";
-  // console.log('click', playerOne)
 
   //vr2: using index made it much easier to switch from player 1 to 2 and leave the empty pieces gray
   const COLORS = {
@@ -99,7 +64,7 @@ function init() {
   // }
   
   
-  //add winning condition
+  //add winning condition for vert and horz
   function checkVertWin(columns, rows) {
     const player = board[columns][rows];
     let count = 1; 
@@ -161,6 +126,7 @@ function init() {
     winner = true;
   }
   //add the winning combination
+  //hardest piece but nailed it thanks to tic tac toe
   function handleDrop(evt) {
     if (winner) return;
     const columns = square.indexOf(evt.target);

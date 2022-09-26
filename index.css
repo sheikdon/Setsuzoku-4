@@ -81,7 +81,7 @@
     
     
       }
-      
+      /* cool css skill i learned. */
     #square > div:hover {
         transform: scale(0.4);
         transition: transform 150ms scale(1.5) ease-in;
@@ -193,7 +193,7 @@ p {
 
 
 }
-
+/* i had to add this since the white squares wasnt working wowzers. */
 #colorw1 {
   color: white;
   
@@ -210,7 +210,7 @@ p {
 #colorw4 {
   color: white;
 }
-
+/* words were acting funky and wouldnt change so now it works. */
 h2 {
     color: white;
     background-color: black;
